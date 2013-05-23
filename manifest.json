@@ -1,0 +1,13 @@
+{
+    "name": "Hello World!",
+    "description": "My first packaged app.",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["background.js","angular.js","angular-resource.js","app.js"]
+        }
+    },
+    "icons": { "16": "camera.png", "128": "camera.png" },
+    "permissions":["audioCapture","videoCapture"]
+}
